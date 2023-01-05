@@ -13,3 +13,5 @@ provider:
 functions:
   firstLambda:
     handler: starterLambda/firstLambda.handler
+  validateEmail:
+    handler: starterLambda/validateEmail.validate
