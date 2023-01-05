@@ -7,7 +7,9 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: python3.8
+  environment:
+      STAGE: ${opt:stage, 'dev'}
 
 functions:
-  hello:
-    handler: handler.hello
+  firstLambda:
+    handler: starterLambda/firstLambda.handler
