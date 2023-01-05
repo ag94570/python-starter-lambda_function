@@ -13,5 +13,7 @@ provider:
 functions:
   firstLambda:
     handler: starterLambda/firstLambda.handler
+    events:
+      - schedule: rate(1 hour) // run lambda every hour after deployment
   validateEmail:
     handler: starterLambda/validateEmail.validate
