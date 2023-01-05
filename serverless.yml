@@ -1,0 +1,13 @@
+org: ag94570
+app: aws-python-starter-lambda
+service: python-starter-lambda-function
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  hello:
+    handler: handler.hello
