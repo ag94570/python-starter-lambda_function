@@ -1,4 +1,4 @@
-# python_lambda_function
+# python_starter_lambda_function
 Basic Example for python Lambda function
 
 ## Steps for creating new project
